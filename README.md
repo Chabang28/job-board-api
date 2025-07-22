@@ -1,28 +1,32 @@
-# Job Board API
+# 💼 Job Board API
 
-This is a RESTful API built with FastAPI that allows companies to register, login, and post job openings. The API uses JWT tokens for secure authentication.
+A backend API for job listings built with FastAPI, SQLite, and SQLAlchemy.  
+Users can register, companies can post jobs, and job seekers can browse listings.
 
-## Features
+---
 
-- Company registration and login with secure password hashing
-- JWT token authentication for protected routes
-- Create, read, update, and delete job postings
-- Job postings include title, description, and location
-- Built with Python, FastAPI, and SQLite database
+## 🚀 Live Demo
 
-## Getting Started
+📍 **Swagger UI:** [https://job-board-api-zdbq.onrender.com/docs](https://job-board-api-zdbq.onrender.com/docs)  
+Try the API live in your browser!
 
-### Requirements
+---
 
-- Python 3.10+
-- Uvicorn
+## 🛠️ Technologies Used
+
 - FastAPI
+- SQLite
 - SQLAlchemy
+- Pydantic
+- Passlib (bcrypt)
+- Uvicorn
 
-### Installation
+---
 
-1. Clone the repo:
+## 📌 Getting Started (Run Locally)
+
+1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/job-board-api.git
+git clone https://github.com/Chabang28/job-board-api.git
 cd job-board-api
